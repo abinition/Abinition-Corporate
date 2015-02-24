@@ -1,0 +1,90 @@
+body {
+  font: 14px "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+  height: 100%;
+}
+.full-page {
+  height: 100%;
+}
+/* For full page height stretch */
+html,
+body,
+section,
+.container {
+  height: 100%;
+}
+img#heroImg {
+  width: 400px;
+  height: auto;
+}
+#abinition {
+  background-image: url("/images/waferplususer.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0 100px;
+  font: 20px 'Cinzel', sans-serif;
+}
+#software {
+  background-image: url("/images/wafer-process.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0 100px;
+  color: #fff;
+}
+#tools {
+  background-image: url("/images/die.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0 100px;
+  color: #fff;
+}
+#connect {
+  background-image: url("/images/connector.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  font: 20px 'Source Sans Pro', sans-serif;
+  position: relative;
+  padding: 100px 0 100px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#download {
+  background-image: url("/images/world-dots.png");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  font: 20px 'Source Sans Pro', sans-serif;
+  color: red;
+  positipage4on: relative;
+  padding: 100px 0 100px;
+}

@@ -1,2 +1,2 @@
-# Abinition-Corporate
-Abinition Corporate Site
+Binteo-Corporate
+================
