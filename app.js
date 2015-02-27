@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var debug = require('debug')('app');
+var stylus = require('stylus');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -21,6 +22,10 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(stylus.middleware({
+        src: __dirname + '/public/stylesheets',
+        dest: __dirname + '/public/stylesheets/' // <-- additional slash after "css"
+    }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
