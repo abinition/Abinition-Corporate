@@ -1,12 +1,29 @@
 body {
   font: 14px "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+.navbar-default {
+  background-color: #a9a5a5;
+  border-color: #a9a5a5;
+}
+.navbar-nav > li > a {
+  color: #fff !important;
+  letter-spacing: 0.07em;
+}
+.btn-success {
+  background-color: #54a9e5;
+  border-color: #54a9e5;
+}
 a {
   color: #00b7ff;
   height: 100%;
 }
 .full-page {
   height: 100%;
+}
+.vertical-align {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
 }
 /* For full page height stretch */
 html,
@@ -20,18 +37,17 @@ img#heroImg {
   height: auto;
 }
 #abinition {
-  background-image: url("/images/waferplususer.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   height: 100%;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  padding: 100px 0 100px;
-  font: 20px 'Cinzel', sans-serif;
+  padding-top: 6%;
+}
+#abinition .abinitionimg {
+  padding: 5px;
+}
+#abinition .h1 {
+  color: #435573;
 }
 #software {
   background-image: url("/images/wafer-process.jpg");
@@ -47,6 +63,9 @@ img#heroImg {
   padding: 100px 0 100px;
   color: #fff;
 }
+#software .software1 {
+  display: block;
+}
 #tools {
   background-image: url("/images/die.jpg");
   background-position: center center;
@@ -60,6 +79,9 @@ img#heroImg {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   padding: 100px 0 100px;
   color: #fff;
+}
+#tools .tools1 {
+  display: block;
 }
 #connect {
   background-image: url("/images/connector.jpg");
@@ -75,6 +97,9 @@ img#heroImg {
   padding: 100px 0 100px;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
+#connect .connect1 {
+  display: block;
+}
 #download {
   background-image: url("/images/world-dots.png");
   background-position: center center;
@@ -87,4 +112,7 @@ img#heroImg {
   color: #f00;
   positipage4on: relative;
   padding: 100px 0 100px;
+}
+#download .download1 {
+  display: block;
 }
